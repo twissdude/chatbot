@@ -1,0 +1,54 @@
+body {
+    background-color: #031c29;
+    color: #C9A96A;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.header {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+#chatbot {
+    width: 420px;
+    padding: 40px;
+    top: 50%;
+    right: 300px;
+    color: #C9A96A;
+    margin: auto;
+    
+}
+
+#chatbot div {
+    margin: 15px;
+}
+      
+
+#input {
+    width: 340px;
+    padding: 5px;
+    border: 1px solid #C9A96A;
+    border-radius: 50px;
+    color: #C9A96A;
+
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        float: left;
+        margin-left: 18px;
+
+
+    }
+    #chatbot, #input {
+        float: left;
+        width: 250px;
+        margin-left: -6px;
+    
+    }
+    #chatbot div {
+        margin: 10px;
+    }
+}
